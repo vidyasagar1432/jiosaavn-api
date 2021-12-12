@@ -1,6 +1,7 @@
 fastapi
-deta
-jiosaavn
-detacache
+# deta
+jiosaavn==0.1.0
+# detacache
 pydantic
-python-dotenv
+uvicorn
+# python-dotenv

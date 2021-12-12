@@ -6,16 +6,12 @@ router = APIRouter()
 @router.get('/')
 async def getAlbumInfo(
     url:str=Query(None),
-    id:str=Query('10496527'),
+    id:str=Query(None),
     query:str=Query(None),
     lyrics:bool=Query(False)):
-    'Get Album information from url or id'
-    if query:
-        return await searchAlbum(query=query)
-    return await album(url=url,id=id,lyrics=lyrics)
+    if query:return await searchAlbum(query=query)
+    if url:return await album(url=url,lyrics=lyrics)
+    if id:return await album(id=id,lyrics=lyrics)
+    return {'status':'please provide url or id'}
 
-# @router.get('/search')
-# async def albumsearch(query:str=Query(...)):
-#     'Search albums from query'
-#     return await searchAlbum(query=query)
 
