@@ -1,0 +1,6 @@
+fastapi
+deta
+jiosaavn
+detacache
+pydantic
+python-dotenv
