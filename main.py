@@ -7,7 +7,7 @@ from app.api.api import ApiRouter
 description = """
 #### JioSaavn API written in Python using [FastAPI](https://github.com/tiangolo/fastapi)
 
-[Github](https://jiosaavn.deta.dev/)
+[Github](https://github.com/vidyasagar1432/jiosaavn-api)
 
 """
 
