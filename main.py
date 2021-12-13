@@ -12,7 +12,7 @@ description = """
 #### [Uvicorn](https://github.com/encode/uvicorn) is a lightning-fast ASGI server implementation,
 #### [Pydantic](https://github.com/samuelcolvin/pydantic/) is used for data validation and settings management using python type annotations.
 #### [jiosaavn](https://github.com/vidyasagar1432/jiosaavn) is used to Search songs & album. Get song, album, playlist & lyric information from JioSaavn.
-#### [detacache](https://github.com/vidyasagar1432/detacache) is to cache request to Deta Base.
+#### [detacache](https://github.com/vidyasagar1432/detacache) is used to cache request to Deta Base.
 """
 
 
