@@ -3,6 +3,8 @@ from pydantic import BaseSettings
 class Settings(BaseSettings):
     DETA_PROJECT_KEY:str
     DETA_BASE_NAME:str = 'jiosaavn'
+    EXPIRE:int = 0
+    LOG:bool = False
 
     class Config:
         env_file = '.env'

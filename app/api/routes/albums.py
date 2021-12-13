@@ -1,9 +1,12 @@
 from fastapi import APIRouter,Query
 from jiosaavn.Async import album,searchAlbum
 
+from app.cache import detaCache,expire,log
+
 router = APIRouter()
 
 @router.get('/')
+@detaCache.cache(expire,log)
 async def getAlbumInfo(
     url:str=Query(None),
     id:str=Query(None),
