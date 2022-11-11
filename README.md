@@ -30,8 +30,8 @@ You are expected to have `git` installed in your system.
 First of all clone the repository and move into the directory.
 
   ```shell
-  git clone https://github.com/vidyasagar1432/fastapi-url-shortener
-  cd fastapi-url-shortener
+  git clone https://github.com/vidyasagar1432/jiosaavn-api
+  cd jiosaavn-api
   ```
 
 ### Deploy to Heroku
